@@ -1,0 +1,94 @@
+[
+    {
+        "id": "gojo-satoru",
+        "name": "Satoru Gojo",
+        "title": "The Strongest Sorcerer",
+        "image": "/images/gojo.jpg",
+        "domain": "Infinite Void",
+        "technique": "Limitless",
+        "lore": "Satoru Gojo is the strongest jujutsu sorcerer in the world. He wields the Six Eyes and the Limitless technique, allowing him to manipulate space at an atomic level. His domain, Infinite Void, overloads the target's mind with infinite information, rendering them catatonic.",
+        "gallery": [
+            "/gojo.jpg",
+            "/gojo-eyes.jpg",
+            "/hollow-purple.jpg"
+        ]
+    },
+    {
+        "id": "ryomen-sukuna",
+        "name": "Ryomen Sukuna",
+        "title": "King of Curses",
+        "image": "/images/sukuna.jpg",
+        "domain": "Malevolent Shrine",
+        "technique": "Dismantle & Cleave",
+        "lore": "Ryomen Sukuna is a legendary curse from the Golden Age of Jujutsu. Even in death, his power is so great that his 20 indestructible fingers are classified as special-grade cursed objects. His domain, Malevolent Shrine, is unique in that it does not create a barrier, allowing him to slash anything within a 200m radius.",
+        "gallery": [
+            "/sukuna.jpg",
+            "/shibuya.jpg"
+        ]
+    },
+    {
+        "id": "yuji-itadori",
+        "name": "Yuji Itadori",
+        "title": "The Vessel",
+        "image": "/images/yuji.jpg",
+        "domain": "None",
+        "technique": "Divergent Fist / Black Flash",
+        "lore": "Yuji Itadori is a student at Tokyo Jujutsu High and the vessel for Ryomen Sukuna. Possessing superhuman physical strength, he is a natural fighter. He specializes in close-quarters combat and has a talent for using Black Flash.",
+        "gallery": [
+            "/yuji.jpg",
+            "/black-flash.jpg"
+        ]
+    },
+    {
+        "id": "megumi-fushiguro",
+        "name": "Megumi Fushiguro",
+        "title": "Ten Shadows User",
+        "image": "/images/megumi.jpg",
+        "domain": "Chimera Shadow Garden",
+        "technique": "Ten Shadows Technique",
+        "lore": "Megumi Fushiguro is a grade 2 sorcerer and a descendant of the Zenin family. He uses shadows to summon shikigami like Divine Dogs, Nue, and Mahoraga.",
+        "gallery": [
+            "/megumi.jpg",
+            "/mahoraga.jpg"
+        ]
+    },
+    {
+        "id": "nobara-kugisaki",
+        "name": "Nobara Kugisaki",
+        "title": "Straw Doll User",
+        "image": "/images/nobara.jpg",
+        "domain": "None",
+        "technique": "Straw Doll Technique",
+        "lore": "Nobara Kugisaki is a brash and confident sorcerer who uses a hammer and nails infused with cursed energy. Her Resonance ability allows her to damage opponents by striking a detached part of their body.",
+        "gallery": [
+            "/nobara.jpg",
+            "/resonance.jpg"
+        ]
+    },
+    {
+        "id": "maki-zenin",
+        "name": "Maki Zenin",
+        "title": "The War God",
+        "image": "/images/maki.jpg",
+        "domain": "None",
+        "technique": "None (Heavenly Restriction)",
+        "lore": "Maki Zenin was born without cursed energy in exchange for immense physical prowess. She wields cursed tools with expert proficiency and aims to become the head of the Zenin clan.",
+        "gallery": [
+            "/maki.jpg",
+            "/dragon-bone.jpg"
+        ]
+    },
+    {
+        "id": "nanami-kento",
+        "name": "Kento Nanami",
+        "title": "7:3 Sorcerer",
+        "image": "/images/nanami.jpg",
+        "domain": "None",
+        "technique": "Ratio Technique",
+        "lore": "Kento Nanami is a Grade 1 sorcerer who left Jujutsu High to become a salaryman before returning. His Ratio Technique allows him to forcibly create a weak point on any target by dividing it along a 7:3 ratio.",
+        "gallery": [
+            "/nanami.jpg",
+            "/overtime.jpg"
+        ]
+    }
+]

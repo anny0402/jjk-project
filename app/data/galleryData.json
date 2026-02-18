@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "src": "/images/gallery/1.jpg",
+        "alt": "Gojo Satoru Domain",
+        "height": "h-64",
+        "characterId": "gojo"
+    },
+    {
+        "id": 2,
+        "src": "/images/gallery/2.jpg",
+        "alt": "Sukuna Finger",
+        "height": "h-96",
+        "characterId": "sukuna"
+    },
+    {
+        "id": 3,
+        "src": "/images/gallery/3.jpg",
+        "alt": "Yuji Black Flash",
+        "height": "h-48",
+        "characterId": "yuji"
+    },
+    {
+        "id": 4,
+        "src": "/images/gallery/4.jpg",
+        "alt": "Megumi Shikigami",
+        "height": "h-80",
+        "characterId": "megumi"
+    },
+    {
+        "id": 5,
+        "src": "/images/gallery/5.jpg",
+        "alt": "Nobara Hammer",
+        "height": "h-56",
+        "characterId": "nobara"
+    },
+    {
+        "id": 6,
+        "src": "/images/gallery/6.jpg",
+        "alt": "Nanami Kento",
+        "height": "h-72",
+        "characterId": "nanami"
+    },
+    {
+        "id": 7,
+        "src": "/images/gallery/7.jpg",
+        "alt": "Maki Zenin",
+        "height": "h-64",
+        "characterId": "gojo"
+    }
+]

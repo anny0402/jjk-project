@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "vol": 0,
+        "chapters": "0.1 - 0.4",
+        "image": "/images/manga/vol0.jpg",
+        "title": {
+            "en": "The Cursed Child",
+            "hi": "शापित बच्चा",
+            "jp": "呪いの子"
+        },
+        "desc": {
+            "en": "The story of Yuta Okkotsu and the Queen of Curses, Rika.",
+            "hi": "युटा ओक्कोत्सु और श्रापों की रानी, रिका की कहानी।",
+            "jp": "乙骨憂太と呪いの女王・里香の物語。"
+        }
+    },
+    {
+        "id": 2,
+        "vol": 1,
+        "chapters": "1 - 7",
+        "image": "/images/manga/vol1.jpg",
+        "title": {
+            "en": "Ryomen Sukuna",
+            "hi": "र्योमेन सुकुना",
+            "jp": "両面宿儺"
+        },
+        "desc": {
+            "en": "Yuji Itadori swallows a cursed finger and meets Satoru Gojo.",
+            "hi": "युजी इटादोरी एक शापित उंगली निगल लेता है और सटोरू गोजो से मिलता है।",
+            "jp": "虎杖悠仁が呪いの指を飲み込み、五条悟と出会う。"
+        }
+    },
+    {
+        "id": 3,
+        "vol": "10-16",
+        "chapters": "83 - 136",
+        "image": "/images/manga/vol_shibuya.jpg",
+        "title": {
+            "en": "The Shibuya Incident",
+            "hi": "शिबुया की घटना",
+            "jp": "渋谷事変"
+        },
+        "desc": {
+            "en": "The greatest disaster in Jujutsu history unfolds in Shibuya.",
+            "hi": "शिबुया में जुजुत्सु इतिहास की सबसे बड़ी आपदा शुरू होती है।",
+            "jp": "呪術史上最大の惨劇が渋谷で繰り広げられる。"
+        }
+    },
+    {
+        "id": 4,
+        "vol": "18-25",
+        "chapters": "159 - 221",
+        "image": "/images/manga/vol_culling.jpg",
+        "title": {
+            "en": "The Culling Game",
+            "hi": "कलिंग गेम",
+            "jp": "死滅回游"
+        },
+        "desc": {
+            "en": "Kenjaku starts a deadly ritual involving modern and ancient sorcerers.",
+            "hi": "केनजाकु आधुनिक और प्राचीन जादूगरों को शामिल करते हुए एक घातक अनुष्ठान शुरू करता है।",
+            "jp": "羂索が現代と過去の術師を巻き込んだ死の儀式を開始する。"
+        }
+    },
+    {
+        "id": 5,
+        "vol": "26-30",
+        "chapters": "222 - 271",
+        "image": "/images/manga/vol_shinjuku.jpg",
+        "title": {
+            "en": "Shinjuku Showdown",
+            "hi": "शिंजुकु शोडाउन",
+            "jp": "新宿決戦"
+        },
+        "desc": {
+            "en": "The final battle: Gojo Satoru vs Ryomen Sukuna.",
+            "hi": "अंतिम युद्ध: गोजो सटोरू बनाम र्योमेन सुकुना।",
+            "jp": "最終決戦：五条悟 vs 両面宿儺。"
+        }
+    }
+]

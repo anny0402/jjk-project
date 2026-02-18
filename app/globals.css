@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tiro+Devanagari+Hindi&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #ededed;
+
+  --jjk-red: #e60023;
+  --jjk-purple: #9b59b6;
+  --jjk-blue: #3498db;
+  --cursed-green: #0f0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: 'Poppins', var(--font-outfit), sans-serif;
+  --font-hindi: 'Tiro Devanagari Hindi', serif;
+  --font-serif: var(--font-cinzel);
+
+  --color-jjk-red: var(--jjk-red);
+  --color-jjk-purple: var(--jjk-purple);
+  --color-jjk-blue: var(--jjk-blue);
+  --color-cursed-green: var(--cursed-green);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  cursor: crosshair;
+  /* Custom cursor */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  /* For horizontal scroll */
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--jjk-red);
+  border-radius: 4px;
+}
+
+/* Cursed Energy Particles Animation */
+@keyframes cursed-pulse {
+
+  0%,
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+    box-shadow: 0 0 10px var(--jjk-purple);
+  }
+
+  50% {
+    opacity: 0.4;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--jjk-purple);
+  }
+}
+
+.cursed-aura {
+  animation: cursed-pulse 2s infinite ease-in-out;
+}
+
+/* Glitch Effect */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.glitch-text:hover {
+  animation: glitch 0.3s cubic-bezier(.25, .46, .45, .94) both infinite;
+  color: var(--jjk-red);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Glow */
+.text-glow {
+  text-shadow: 0 0 10px rgba(230, 0, 35, 0.7);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 10px rgba(155, 89, 182, 0.7);
+}
+
+/* Page Transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+
+/* Cursed Energy Placeholder - Deep Black to Purple */
+.cursed-placeholder {
+  display: none;
+  /* Hidden by default, shown via JS on error */
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, #2e003e 0%, #000000 80%);
+  border: 1px solid #4a0072;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.cursed-placeholder::before {
+  content: "CURSED CONTENT";
+  font-family: 'Cinzel', serif;
+  color: rgba(180, 100, 255, 0.8);
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #8b00ff;
+  animation: text-flicker 3s infinite;
+}
+
+.cursed-placeholder::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 50px rgba(75, 0, 130, 0.5);
+  animation: cursed-placeholder-pulse 3s infinite ease-in-out;
+}
+
+@keyframes cursed-placeholder-pulse {
+  0% {
+    box-shadow: inset 0 0 20px rgba(139, 0, 255, 0.2);
+  }
+
+  50% {
+    box-shadow: inset 0 0 60px rgba(139, 0, 255, 0.6);
+  }
+
+  100% {
+    box-shadow: inset 0 0 20px rgba(139, 0, 255, 0.2);
+  }
+}
+
+@keyframes text-flicker {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 1;
+  }
+
+  20%,
+  24%,
+  55% {
+    opacity: 0.5;
+  }
+}
+
+.cursed-placeholder.visible {
+  display: flex !important;
+  z-index: 20;
+}
+
+/* JJK High-Grade Placeholder */
+.jjk-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #2e003e 0%, #000000 90%);
+  border: 1px solid #9b59b6;
+  box-shadow: inset 0 0 20px rgba(155, 89, 182, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.jjk-placeholder::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 40%, rgba(155, 89, 182, 0.2) 50%, transparent 60%);
+  animation: jjk-pulse 3s infinite;
+}
+
+@keyframes jjk-pulse {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Scroll Overlap Fix - Mandatory for all major sections */
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #000000;
+  z-index: 10;
+}
+
+/* Specific overrides if needed */
+#characters {
+  background: linear-gradient(to bottom, #000000, #171717);
+}
